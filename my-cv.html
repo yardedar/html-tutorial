@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/my-cv.css" rel="stylesheet">
+    <script lang="javascript">
+        const welcome = () => {
+            console.log("Welcome to my CV!");
+        }
+        const button_click = () => {
+            console.log("The button was clicked!");
+            let ctrl = document.getElementById("name");
+            let name = ctrl.value;
+            alert(`Hello to you ${name}`);
+        }
+    </script>
+</head>
+<body onload="welcome()">
+    <div>
+        <label>Enter your name: </label>
+        <input id="name" type="text">
+        <button onclick="button_click()">Click me!</button>
+    </div>
+    <h1>Ryan Heinrich</h1>
+    <hr>
+    <table>
+        <tr>
+            <td>Liberty Township, Ohio&emsp;</td>
+            <td>513.795.2584&emsp;</td>
+            <td>heinrich.ryan@gmail.com</td>
+    </table>
+    <br>
+    <h3>TECHNOLOGY</h3>
+    
+    <p>Git | GitHub | C# | CSS | SQL | Spring | NET Core | Bootstrap | Typescript | Java | Entity Framework Core | HTML | MySQL | WebApi | JavaScript | SQL Server | JSON | REST | Maven | Agile/Scrum | Visual Studio 2019 | ASP.Net | .Net | Eclipse | Hibernate | jQuery | Scrum | Angular | SQL Server Management Studio (SSMS)
+    </p>
+    <br>
+    <h3>WORK EXPERIENCE</h3>
+    <p><b>Consultant,</b> <i>Ryan Heinrich LLC</i> (2011-Present) </p>
+    <ul>
+        <li>Did some stuff.</li>
+        <li>Did some other things.</li>
+        <li>Etc., etc., etc.</li>
+        </ul>
+    <p><b>Utlities Service Agent,</b> <i>City of Hamilton</i> (2011-2013)</p>
+    <ul>
+        <li>Did things.</li>
+        <li>It was a long time ago.</li>
+        <li>More boilerplate.</li>
+        </ul>
+    <br>
+    <h3>EDUCATION</h3>
+    <p>MAX Technical Training, <i>in progress</i> (2021)</p>
+    <p>The Boston Conservatory, <i>Bachelors of Fine Arts</i> (2003)</p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body {
+    font: normal normal normal 16pt/20pt Arial, Hevitica, sans-serif; 
+}
+    #tech-css {color: green;}
+.redBold {color: red; font-weight: bold;}
+.italic {font-style: italic;}
+.blowItUp {font-size: 1.5em}
